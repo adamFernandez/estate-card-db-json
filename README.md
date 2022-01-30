@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# Zoopla front-end challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Using your own choice of tools we would like you to create a simple front-end application that will enable estate agents to manage property listings.
 
-## Available Scripts
+An agent should be able to do the following:
 
-In the project directory, you can run:
+* View all listings
+* Mark an individual listing as expired
+* Easily distinguish between active and expired listings
 
-### `npm start`
+A listing contains the following information:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* Image
+* Number of bedrooms
+* Address
+* Postcode
+* Description
+* Asking price
+* Status - `active` or `expired`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Taking advantage of the advances in technology and industry standards, create a simple application that can perform the tasks outlined above. 
 
-### `npm test`
+Below is visual design of the listings card to illustrate what an individual listing could look like. This image is only there to give a flavour of what it should look like and not a specific design to implement. Anything not present in the specification does not need to be implemented and, where there is any ambiguity, the specification above takes precedence.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Although responsive layouts are not present in this visual, feel free to build them in a way that you think would be valuable to a user.
 
-### `npm run build`
+![Property Listings Card](/listing-card.png "Property Listings Card")
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Data handling
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+For the purposes of this challenge use what you prefer for tactically storing the information (session storage, file storage, database). However, please state your preferred solution if you were to implement a full solution.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+We recommend you use a tool like [JSON Server](https://github.com/typicode/json-server) to mock the data, rather than build out any APIs. If you use JSON Server, please ensure it installed as a local dependency and not globally, as recommended in the installation instructions. The project should build and run successfully after installing the project's local dependencies.
 
-### `npm run eject`
+## Technical Notes
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+You should also ask yourself the following questions before submitting the test, this is what we value and will mark you on:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* Is the code easy to maintain?
+* Does the proposed solution scale if more teams were to contribute?
+* How difficult is it to onboard another engineer to the codebase?
+* Does the application work across different screen sizes?
+* Is the logic well tested?
+* Is the application accessible to all users?
+* Is the code semantic?
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Feel free to make and state assumptions on any details not covered in the challenge.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+We're not expecting a fully functional solution, we recommend spending **2 - 4 hours**.
 
-## Learn More
+## Follow-up discussions 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+In the follow-up technical interview we will discuss the solution you have submitted. Think about how you would automate the deployment (what should be built into the pipeline) or what infrastructure you would chose to support your application.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Good luck!**
