@@ -3,9 +3,7 @@
     {
       "id": "1",
       "image": {
-        "src": "https://picsum.photos/600/300",
-        "alt": "Please a really nice and clear description",
-        "author": "Image by <a href=\"https://pixabay.com/users/pexels-2286921/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1867187\">Pexels</a> from <a href=\"https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1867187\">Pixabay</a>"
+        "src": "https://picsum.photos/600/400"
       },
       "rooms": {
         "bedrooms": "1",
@@ -17,7 +15,40 @@
       "postcode": "E2",
       "description": "Lovely one bedroom flat located....",
       "price": 425000,
-      "datelisted" : "7th May 2020",
+      "status": "active"
+    },
+    {
+      "id": "2",
+      "image": {
+        "src": "https://picsum.photos/600/400"
+      },
+      "rooms": {
+        "bedrooms": "1",
+        "bathrooms": "1",
+        "livingrooms": "1"
+      },
+      "title": "1 bed flat for sale",
+      "address": "Mansford Street",
+      "postcode": "E2",
+      "description": "Lovely one bedroom flat located....",
+      "price": 425000,
+      "status": "expired"
+    },
+    {
+      "id": "3",
+      "image": {
+        "src": "https://picsum.photos/600/400"
+      },
+      "rooms": {
+        "bedrooms": "1",
+        "bathrooms": "1",
+        "livingrooms": "1"
+      },
+      "title": "1 bed flat for sale",
+      "address": "Mansford Street",
+      "postcode": "E2",
+      "description": "Lovely one bedroom flat located....",
+      "price": 425000,
       "status": "active"
     }
   ]

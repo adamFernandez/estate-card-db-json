@@ -1,8 +1,8 @@
 import { useState, useEffect} from "react";
 
-
+import './FontAwesome';
+import { GlobalStyles } from "./styles/Global";
 import { Wrapper } from "./styles/Wrapper.styled";
-import { Container } from "./styles/Container.styled";
 import Listing from "./components/Listing";
 
 
@@ -27,9 +27,8 @@ function App() {
 
   return (
     <Wrapper>
-      <Container card>
-        {data && <Listing data={data} />}
-      </Container>
+      <GlobalStyles />
+      {data && <Listing data={data} />}
     </Wrapper>
   );
 }
