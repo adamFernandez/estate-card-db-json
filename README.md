@@ -1,8 +1,13 @@
-# Zoopla front-end challenge
+## Challenge by Adam Fernandez
 
-Using your own choice of tools we would like you to create a simple front-end application that will enable estate agents to manage property listings.
+Tools used: 
 
-An agent should be able to do the following:
+* React
+* json-server
+* styled-components
+* FontAwesome
+
+This simple UI allows the user to do what was asked for the exercise. 
 
 * View all listings
 * Mark an individual listing as expired
@@ -18,38 +23,46 @@ A listing contains the following information:
 * Asking price
 * Status - `active` or `expired`
 
-Taking advantage of the advances in technology and industry standards, create a simple application that can perform the tasks outlined above. 
-
-Below is visual design of the listings card to illustrate what an individual listing could look like. This image is only there to give a flavour of what it should look like and not a specific design to implement. Anything not present in the specification does not need to be implemented and, where there is any ambiguity, the specification above takes precedence.
-
-Although responsive layouts are not present in this visual, feel free to build them in a way that you think would be valuable to a user.
-
-![Property Listings Card](/listing-card.png "Property Listings Card")
 
 ## Data handling
 
-For the purposes of this challenge use what you prefer for tactically storing the information (session storage, file storage, database). However, please state your preferred solution if you were to implement a full solution.
-
-We recommend you use a tool like [JSON Server](https://github.com/typicode/json-server) to mock the data, rather than build out any APIs. If you use JSON Server, please ensure it installed as a local dependency and not globally, as recommended in the installation instructions. The project should build and run successfully after installing the project's local dependencies.
+Data handled with json-server as suggested. 
 
 ## Technical Notes
 
 You should also ask yourself the following questions before submitting the test, this is what we value and will mark you on:
 
-* Is the code easy to maintain?
+* Is the code easy to maintain? 
+  
+  - Right now, the code shsould be easy to mantain as it is a really small application. 
+    If I were to make it more scalable I would have probably started by adding a better folder structure. Separating the server from the client to start with and then adding (in case of a React app) Redux to admin data through the store and dispatch actions in a more organized manner.
+
 * Does the proposed solution scale if more teams were to contribute?
+  - This solution could definetly scale by adding the proper structure. At this point, this UI could be a single component of a much larger application.
+
 * How difficult is it to onboard another engineer to the codebase?
+  - I think it is pretty straight forward. There is not much to adapt to. The main requirement would be that the new developer should know a bit of style-components, along with the rest of the stack. I hope it will not take more than a few hours.
+
 * Does the application work across different screen sizes?
+ - I have tried to cover most breakpoints and it seems to be working. So far, so good.
+
 * Is the logic well tested?
+  - The logic has not been tested. 
+
 * Is the application accessible to all users?
+  - Not to people with impaired vision.
+
 * Is the code semantic?
+  - I think it is semantic. 
 
-Feel free to make and state assumptions on any details not covered in the challenge.
+  
+## Review  
+  If I had more time I would probably have implemented the application with a backend (maybe with node, express or any other backend language with mongodb). And also use Redux to handle React data management.
+  
+  I am not too experienced on testing so I have not being able to do any this time. My testing skills are on working progress. Keen to learn and practice with Zoopla!
 
-We're not expecting a fully functional solution, we recommend spending **2 - 4 hours**.
+  All the best for everyone! 
 
-## Follow-up discussions 
+  Many thanks 
 
-In the follow-up technical interview we will discuss the solution you have submitted. Think about how you would automate the deployment (what should be built into the pipeline) or what infrastructure you would chose to support your application.
-
-**Good luck!**
+  Adam Fernandez

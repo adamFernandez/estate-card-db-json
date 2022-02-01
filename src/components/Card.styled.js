@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const StyledCard = styled.div`
-  
   position: relative;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -19,14 +18,14 @@ export const StyledCard = styled.div`
     }
   }
   .title {
-    /* font-size: 1.2rem; */
+    font-size: 1.3em;
   }
 
   .price {
     color: purple;
-    /* font-size: 1.8em; */
     margin: 0;
     padding: 0;
+    font-size: 5vw;
   }
 
   .rooms {
@@ -39,13 +38,39 @@ export const StyledCard = styled.div`
   }
 
   .description {
-    /* font-size: .9em; */
+    font-size: .9em;
   }
 
   .address {
-    /* font-size: .8em; */
+    font-size: .8em;
   }
 
+  @media screen and (max-width: 320px) { 
+    grid-template-columns: 1fr;
+    justify-items: center;
+    font-size: 4vw;
+    .image {
+      width: 100%;
+    }
+    .info {
+      justify-self: left;
+      padding-left: .5em;
+    }
+  }
+  /* @media screen and (max-width: 400px) { 
+    grid-template-columns: 1fr;
+    justify-items: center;
+    font-size: 4vw;
+
+    .image {
+      width: 100%;
+    }
+    .info {
+      justify-self: left;
+      padding-left: .5em;
+    }
+  } */
+  
   
 
 `
