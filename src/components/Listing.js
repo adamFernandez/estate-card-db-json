@@ -1,10 +1,10 @@
 import Card from "./Card";
 
-const Listing = ({ data }) => {
+const Listing = ({ data, changeStatus }) => {
   return (
     <>
     {data.map(item => 
-      <Card item={item} key={item.id}/>
+      <Card key={item.id} item={item} changeStatus={changeStatus} />
     )}
     </>
   )

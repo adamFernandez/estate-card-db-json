@@ -10,10 +10,10 @@
         "bathrooms": "1",
         "livingrooms": "1"
       },
-      "title": "1 bed flat for sale",
+      "title": "2 bed flat for sale",
       "address": "Mansford Street",
       "postcode": "E2",
-      "description": "Lovely one bedroom flat located....",
+      "description": "Lovely two bedroom flat located....",
       "price": 425000,
       "status": "active"
     },
@@ -23,15 +23,15 @@
         "src": "https://picsum.photos/600/400"
       },
       "rooms": {
-        "bedrooms": "1",
+        "bedrooms": "2",
         "bathrooms": "1",
         "livingrooms": "1"
       },
       "title": "1 bed flat for sale",
-      "address": "Mansford Street",
-      "postcode": "E2",
+      "address": "Letter Street",
+      "postcode": "SW2",
       "description": "Lovely one bedroom flat located....",
-      "price": 425000,
+      "price": 400000,
       "status": "expired"
     },
     {
@@ -45,10 +45,10 @@
         "livingrooms": "1"
       },
       "title": "1 bed flat for sale",
-      "address": "Mansford Street",
+      "address": "Oxford Street",
       "postcode": "E2",
       "description": "Lovely one bedroom flat located....",
-      "price": 425000,
+      "price": 225000,
       "status": "active"
     }
   ]

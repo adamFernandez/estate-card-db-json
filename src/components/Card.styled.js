@@ -1,14 +1,4 @@
-import styled, { keyframes }from "styled-components";
-
-const rotate = keyframes`
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-`
+import styled from "styled-components";
 
 export const StyledCard = styled.div`
   
@@ -16,22 +6,10 @@ export const StyledCard = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
-
-  .status {
-    position: absolute;
-    z-index: 5;
-    top: 0;
-    left: 0;
-    clip-path: polygon(20% 0, 41% 0, 0 40%, 0 20%);
-    height: 150%;
-    width: 50%;
-    background-color: purple;
-    color: white;
-    &:: {
-      color: red;
-    }
-    animation: ${rotate} 2s linear;
-  }
+  border-bottom: 1px solid #bbbbbb;
+  margin: 0;
+  padding: .2em 0;
+  
   
   .image {
     width: 90%;
@@ -41,12 +19,12 @@ export const StyledCard = styled.div`
     }
   }
   .title {
-    font-size: 1.2em;
+    /* font-size: 1.2rem; */
   }
 
   .price {
     color: purple;
-    font-size: 1.8em;
+    /* font-size: 1.8em; */
     margin: 0;
     padding: 0;
   }
@@ -61,11 +39,13 @@ export const StyledCard = styled.div`
   }
 
   .description {
-    font-size: .9em;
+    /* font-size: .9em; */
   }
 
   .address {
-    font-size: .8em;
+    /* font-size: .8em; */
   }
+
+  
 
 `
